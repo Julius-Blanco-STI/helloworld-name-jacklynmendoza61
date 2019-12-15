@@ -1,0 +1,87 @@
+public class Main {
+
+     
+    public static void main(String []args){
+ 
+     Taxi x = new Taxi(PYEOL88614);
+     x.run("I will go to Makati");
+     x.printcurrentlocation();
+     //x:,y:
+     x.book(0,0);
+     x.run("Im leaving on a jetPlame")
+     x.reachedDestination();
+     } //false
+
+}
+    
+class Taxi {
+  
+  
+    public static void main(String []args){
+   
+      private int x = 0;
+        
+      private int y = 0;
+        
+      private String PlateNumber = "null";
+        
+      Private int dest x = 0;
+      private int dest y = 0;
+  
+    public String name = "null";
+    
+          public Taxi(String name){
+          this.name = name;      
+        
+      }
+      public void run (String gala){
+         this.gala = gala
+      }
+      public int getX(){
+         return this.y;
+      }
+      public int getY(){
+      }
+      public String getPlateNum(){
+         return this.PlateNumber;
+      }
+      public int getDestinationX(){
+         return this.destX;
+      }
+      public void run(String run){
+         int t = run.lenght();
+         for(int PCY = 0; PCY<t;PCY+++){
+         if(run.charAt(PCY)=='l'){
+      x--;
+      }
+      else if (run.charAt(PCY)=='r'){
+      x++;
+      }
+      else if (run.charAt(PCY)=='u'){
+      y++;
+      }
+      }
+      else if (run.charAt(PCY)=='d'){
+      y--;
+      }
+      }
+      }
+      public void book(int x,int y){
+          this.destx = x;
+          this.desty = y;
+      }
+      public void reachedDestination(){
+          if(this.destx == destx && this.desty == desty){
+          System.out.println("true");
+      }
+      else{
+          System.out.print("false");
+      }
+      }
+      public void printcurrentlocation(){
+         System.out.println("Your location is" + x + "" + y);
+      }
+      }
+     
+
+      
